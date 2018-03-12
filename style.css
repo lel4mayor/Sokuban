@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 225px;
+}
+
+#floorCell {
+    background: white;
+    height: 25px;
+    width: 25px;
+}
+
+#wallCell {
+    background: tomato;
+    height: 25px;
+    width: 25px;
+}
+
+#startCell {
+    height: 25px;
+    width: 25px;
+}
+
+#openCell {
+    height: 25px;
+    width: 25px;
+    background: mediumorchid;
+}
+
+#closedCell {
+    height: 25px;
+    width: 25px;
+    background: black;
+}
+
+#box {
+    height: 25px;
+    width: 25px;
+    background: darkgoldenrod;
+}
+
+#playerPosition {
+    background: mediumturquoise;
+    border-radius: 10px;
+    height: 22px;
+    width: 22px;
+    position: absolute;
+}
